@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "declaration": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
+  },
+  "include": ["./scripts", "./test", "./typechain", "./typechain-types", "./ignition"],
+  "files": ["hardhat.config.ts"]
+}
