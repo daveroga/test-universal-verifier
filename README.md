@@ -14,7 +14,7 @@ You can test directly in Aurora Testnet with this command
 ```shell
 npx hardhat run scripts/submitResponse.ts --network aurora-testnet
 ```
-## Test for Aurora Testnet in localhost
+## Test for Aurora Testnet in localhost with a fork
 1. Fork the network in your local executing this command in a terminal
   ```shell
   npx hardhat node
