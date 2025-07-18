@@ -3,12 +3,16 @@
 This project tests submitResponse for Universal Verifier.
 
 ## Configuration
-1. Copy `.env.example` into `.env`
-2. Fill your configuration for the different parameters
-```
-PRIVATE_KEY=<your_ethereum_account_private_key>
-AURORA_TESTNET_RPC_URL="https://testnet.aurora.dev"
-```
+1. Install dependencies
+  ```shell
+  npm ci
+  ```
+2. Copy `.env.example` into `.env`
+3. Fill your configuration for the different parameters
+  ```
+  PRIVATE_KEY=<your_ethereum_account_private_key>
+  AURORA_TESTNET_RPC_URL="https://testnet.aurora.dev"
+  ```
 ## Test for Aurora Testnet
 You can test directly in Aurora Testnet with this command
 ```shell
