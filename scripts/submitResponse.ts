@@ -28,9 +28,9 @@ async function main() {
     ],
     "0x",
     {
-      gasPrice: 50000000000,
+      gasPrice: 700000000,
       initialBaseFeePerGas: 25000000000,
-      gasLimit: 10000000,
+      gasLimit: 2000000,
     },
   );
   console.log(`Waiting for tx ${tx.hash} to be mined...`);
